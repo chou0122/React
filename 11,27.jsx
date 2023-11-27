@@ -12,3 +12,9 @@
 //     b[i]=b[i]*2
 // }
 
+{/* <>
+<h1 class="tittle">text</h1>
+<label htmlFor="emailinput">Email</label>
+const Email=[@mail.com]
+<lable className="1">test2</lable>
+</> */}
