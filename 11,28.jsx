@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-//rfc//requestforcomment
-=======
 import React from 'react'
 
 export default function a() {
@@ -8,4 +5,4 @@ export default function a() {
     <div>11,28</div>
   )
 }
->>>>>>> Stashed changes
+
