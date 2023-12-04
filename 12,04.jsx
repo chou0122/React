@@ -19,4 +19,26 @@ export default function counter_async() {
 
         </div>
     )
+    const toggleFav = (array, isbn) => {
+        return array.map((v, i) => {
+            if (v.isbn === isbn) return { ...v, fav: !v.fav }
+            else return v
+        })
+    }
+    reurn (
+        <>
+        <h1>stock_list</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>編號</th>
+                    <th>股票名稱</th>
+                    <th>市價</th>
+                    <th>加入收藏</th>
+                </tr>
+            </thead>
+        </table>
+        </>
+    )
 }
+
