@@ -10,10 +10,10 @@ export default function ReRender() {
       <button className='test' onClick={() => {
         setTotal(total + 1)
       }}>+1</button>
-    </>
-  )
   const count = 0
   return <>{count && <h1>Messages:{count}</h1>}</>
   return <>{count ? <h1>Messages:{count}</h1> : ''}</>
+    </>
+  )
 
 }
