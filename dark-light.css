@@ -1,0 +1,30 @@
+.light{
+    color:black;
+    background-color:white;
+}
+.light-highlight{
+    color: brown;
+}
+.dark{
+    color: white;
+    background-color: black;
+}
+.dark-highlight{
+    color: white;
+}
+.switch-light{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+    padding-left: 10px;
+}
+.switch-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 35px;
+    padding-left: 10px;
+}
